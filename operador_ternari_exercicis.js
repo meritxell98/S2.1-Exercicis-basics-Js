@@ -47,8 +47,8 @@
 
         function parOlmpar(array) {
             for (let i = 0; i < array.length; i++) {
-                
-            (i % 2) ? console.log(`${i} és imparell`) : console.log(`${i} és parell`) ;
+                let num = array[i]
+                (num % 2) ? console.log(`${num} és imparell`) : console.log(`${num} és parell`) ;
             }
         }
 
