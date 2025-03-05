@@ -54,7 +54,8 @@
 
         function processarElements(array, myCallback) {
             for (let i = 0; i < array.length; i++) {
-                myCallback(i)  
+                let num = array[i]
+                myCallback(num)  
             }
         }
 
