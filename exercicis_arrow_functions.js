@@ -10,7 +10,7 @@
 
     // Exercici 2
 
-        let randomNumer = () => Math.floor(Math.random() * 101);
+        let randomNumber = () => Math.floor(Math.random() * 101);
         console.log(randomNumer())
 
     // Exercici 3 
@@ -31,7 +31,7 @@
     //Exercici 4 
     let numeros = [1,3,5,6,7,12,25,36];
         
-        function printNumbers(array) {
+        function printNumbers(numeros) {
 
             for (let i = 0; i < array.length; i++) {
                 const print = () => console.log(numeros[i])
